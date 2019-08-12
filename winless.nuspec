@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>winless</id>
+    <version>1.9.1</version>
+    <packageSourceUrl>https://github.com/NeverMine17/winless-chocolatey/</packageSourceUrl>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <!-- This section is about the software itself -->
+    <title>WinLess</title>
+    <authors>Mark Lagendijk</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://github.com/marklagendijk/WinLess/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/marklagendijk/WinLess/master/WinLess/icon.ico</iconUrl>
+    <licenseUrl>https://raw.githubusercontent.com/marklagendijk/WinLess/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>winless less css web</tags>
+    <summary>An awesome Windows GUI for less.js</summary>
+    <description>An awesome Windows GUI for less.js</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
